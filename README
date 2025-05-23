@@ -1,0 +1,28 @@
+Données utilisées 
+
+Données - Données RH avec plus de 22 000 lignes de 2000 à 2020. 
+
+Nettoyage et analyse des données - SQL, MySQL Workbench.  
+
+Visualisation des données - PowerBI.
+
+ Questions 
+
+1. Quelle est la répartition par sexe des employés de l'entreprise ?
+2. Quelle est la répartition ethnique des employés de l'entreprise ? 
+3. Quelle est la répartition par âge des employés de l'entreprise ? 
+4. Combien d'employés travaillent au siège social et en télétravail ? 
+5. Quelle est la durée moyenne d'emploi des employés licenciés ? 
+6. Comment la répartition par sexe varie-t-elle selon les services et les intitulés de poste ? 
+7. Quelle est la répartition des intitulés de poste au sein de l'entreprise ? 
+8. Quel service présente le taux de rotation le plus élevé ? 
+9. Quelle est la répartition des employés entre les sites et par État ? 
+10. Comment le nombre d'employés de l'entreprise a-t-il évolué au fil du temps, en fonction des dates d'embauche et des mandats ?  
+11. Quelle est la répartition de l'ancienneté dans chaque service ?
+
+Limites
+
+* Certains enregistrements présentaient des âges négatifs et ont été exclus de l'interrogation (967 enregistrements). Les âges utilisés étaient de 18 ans et plus. 
+
+* ⁠Certaines dates de trimestre étaient très éloignées dans le temps et n'ont pas été incluses dans l'analyse (1599 enregistrements). 
+Les seules dates de trimestre utilisées étaient celles inférieures ou égales à la date du jour.
